@@ -1,7 +1,7 @@
 <a name="Richard Sikaonga"></a>
 
 # 📗 Table of Contents
-adding changes
+
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
