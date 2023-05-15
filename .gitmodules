@@ -1,0 +1,3 @@
+[sumodule "themes/vex-hugo"]
+    path = themes/vex-hugo
+    url = https://github.com/richie1988/mobildesktop-vision.git
