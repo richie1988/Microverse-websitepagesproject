@@ -148,7 +148,7 @@ I would like Thank Microverse Team and my Collabaration partners whom they have 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://docs.github.com/en/issues).
+Feel free to check the [issues page]([https://docs.github.com/en/issues](https://richie1988.github.io/mobildesktop-vision/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
