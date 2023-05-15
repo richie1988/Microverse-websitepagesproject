@@ -139,10 +139,11 @@ I would like Thank Microverse Team and my Collabaration partners whom they have 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [1] **[Desktop-vision]**
+- [1] **[fullylive-links]**
 - [2] **[Clickable-Intaraction]**
-- [3] **[fully-deployement]**
 - [3] **[full-website-intaraction]**
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
