@@ -1,3 +1,6 @@
+/* stylelint-disable declaration-block-no-duplicate-properties */
+
+
 /* stylelint-disable comment-whitespace-inside */
 
 
@@ -26,9 +29,6 @@
 
 
 /* stylelint-disable font-family-no-missing-generic-family-keyword */
-
-
-/* stylelint-disable declaration-block-no-duplicate-properties */
 
 
 /* stylelint-disable unit-case */
@@ -747,8 +747,6 @@ input {
     line-height: 24px;
     color: #3C3A39;
     margin-left: 0;
-    font-family: 'Inter';
-    font-style: normal;
 }
 
 .textarea {
@@ -966,7 +964,6 @@ form {
         width: 455px;
         overflow-wrap: break-word;
         height: 256px;
-        width: 455px;
         inline-size: 399px;
         display: flex;
         margin-top: -2ex;
@@ -1014,7 +1011,6 @@ form {
     .surname {
         height: 1px;
         width: 330px;
-        height: 1px;
         border-left: 0;
         border-right: 0;
         border-top: 0;
@@ -1025,7 +1021,6 @@ form {
     .name {
         height: 1px;
         width: 330px;
-        height: 1px;
         border-left: 0;
         border-right: 0;
         border-top: 0;
