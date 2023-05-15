@@ -62,7 +62,7 @@ so that other developer's can find them or see what the have built.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](http://127.0.0.1:5500/index.html)
+- [Live Demo Link](https://richie1988.github.io/website-pages/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,7 +141,7 @@ I would like Thank Microverse Team and my Collabaration partners whom they have 
 
 - [1] **[Desktop-vision]**
 - [2] **[Clickable-Intaraction]**
-- [3] **[Project-deployement]**
+- [3] **[full-website-intaraction]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
