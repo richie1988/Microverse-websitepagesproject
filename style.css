@@ -49,8 +49,8 @@ d body {
     font-family: 'Poppins', sans-serif, Arial, Helvetica, 'Lucida Sans', 'Lucida Sans Regular', Lucida, Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 main {
@@ -226,7 +226,7 @@ header {
     gap: 12px;
     background: #fff;
     list-style: none;
-    margin-top: -49px;
+    margin-top: -33px;
     padding-left: 0;
 }
 
@@ -560,7 +560,7 @@ li.b4 {
     align-items: center;
     align-content: center;
     background-color: #1c1a19;
-    background-image: url("image/Frame.png");
+    background-image: url("image/About-flamemobile.png");
     background-repeat: no-repeat;
     background-position: 100% 10%;
     background-position-y: 20.7%;
@@ -1008,6 +1008,9 @@ form {
     .Full-name {
         display: none;
     }
+    .input-section {
+        display: flex;
+    }
     .surname {
         height: 1px;
         width: 330px;
@@ -1016,7 +1019,7 @@ form {
         border-top: 0;
         padding-top: 16px;
         padding-bottom: 16px;
-        padding-left: 30px;
+        padding-right: -30px
     }
     .name {
         height: 1px;
@@ -1027,11 +1030,6 @@ form {
         padding-top: 16px;
         padding-bottom: 16px;
         margin-right: 30px;
-    }
-    form {
-        width: auto;
-        flex-wrap: wrap;
-        display: flex;
     }
     .Content h1 {
         width: 430px;
@@ -1060,14 +1058,6 @@ form {
     }
     .Content {
         margin-left: 8%;
-    }
-    input {
-        width: 80%;
-        margin-bottom: 24px;
-        padding: 12px;
-        border-left: 0;
-        border-right: 0;
-        border-top: 0;
     }
     .first-card {
         background-image: url("image/healthcaredata.png");
