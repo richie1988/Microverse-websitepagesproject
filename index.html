@@ -13,35 +13,35 @@
 <body>
 
 
-    <header class="Top-nav">
-        <a><img class="mylogo" src="image/My Logo.png" alt="MyLogo"></a>
-        </a>
-        <nav class="icon">
-            <a><img src="image/Icon - Menu.svg"></a>
-        </nav>
-        <div class="hambuger-menu" id="hambuger-menu">
-
-            <a href="#">Portfolio</a>
-
-            <a href="#">About</a>
-
-            <a href="#">Contact</a>
-
-            <a href="#"><img src="image/Email-icon.svg" alt="e-mail"></a>
-
-        </div>
-
-    </header>
     <main>
-        <div class="mobile-Container">
+        <header class="Top-nav">
+            <a><img class="mylogo" src="image/My Logo.png" alt="MyLogo"></a>
+            </a>
+            <a class="icon-btn" id="hamburger"><img id=" menu-icon " src="image/Icon - Menu.svg "></a>
+            <nav class="mobile-menu" id="mobile-menu">
+                <button class="close-btn" id="close-menu"><img id=" menu-icon " src="image/cancel.png"></button>
+                <ul class="mobile-menu">
+                    <li><a class="item" href="#section1">Portfolio</a></li>
+                    <li>
+                        <a class="item" href="#section2">About</a>
+                    </li>
+                    <li>
+                        <a class="item" href="#section3">Contact</a>
+                    </li>
+                    <li>
+                        <a class="item" href="#section3"><img src="image/Email-icon.svg " alt="e-mail "></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="mobile-Container ">
 
-            <article class="Content">
+            <article class="Content " id="portfolio">
                 <h1>Hey There.I’m Richard.</h1>
-                <h2>I'm a Software Developer</h2>
+                <h2>I' m a Software Developer</h2>
                 <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
             </article>
-
-            <section class="social-media">
+            <section class="social-media ">
                 <ul>
                     <li>
                         <a>
@@ -50,7 +50,7 @@
                     </li>
                     <li>
                         <a>
-                            <img src="image/Icon - Linkedin.svg">
+                            <img src="image/Icon - Linkedin.svg ">
                         </a>
                     </li>
                     <li>
@@ -61,12 +61,12 @@
                     <li>
 
                         <a>
-                            <img src="image/Vector (2).svg">
+                            <img src="image/Vector (2).svg ">
                         </a>
                     </li>
                     <li>
                         <a>
-                            <img src="image/Vector.svg">
+                            <img src="image/Vector.svg ">
                         </a>
                     </li>
                 </ul>
@@ -74,13 +74,13 @@
 
         </div>
 
-        <section class="Title">
+        <section class="Title ">
             <h1>My Recent works</h1>
             <hr class=" underline-one ">
         </section>
-        <div class="Featured-info">
+        <div class="Featured-info ">
 
-            <image class="myphoto" src="image/Img Placeholder (1).png ">
+            <image class="myphoto " src="image/Img Placeholder (1).png ">
             </image>
 
             <article class="my-article ">
@@ -95,7 +95,7 @@
                 <button class="project-btn1 ">See project</button>
             </article>
         </div>
-        <div class="card-container ">
+        <div class="card-container " id="card-Section ">
             <div class="first-card ">
                 <article>
                     <h2>Profesional Art Printing Data</h2>
@@ -179,7 +179,7 @@
                 <a class="see-projectbtn ">See project</a>
             </div>
         </div>
-        <div class="about-section ">
+        <div class="about-section " id="about ">
             <article class="intro ">
                 <h3>About me</h3>
                 <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
@@ -220,18 +220,18 @@
                 </ul>
             </section>
         </div>
-        <div class="form-section ">
+        <div class="form-section " id="contact ">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 
-            <form action="https://formspree.io/f/mrgvjnke" method="post">
+            <form action="https://formspree.io/f/mrgvjnke " method="post ">
 
-                <section class="input-section"> <input class="name " type="text " name="Full name " placeholder="Full name " maxlength="30" required>
-                    <input class="surname " type="text " name="Surname " placeholder=" Last name " maxlength="30" required>
+                <section class="input-section "> <input class="name " type="text " name="Full name " placeholder="Full name " maxlength="30 " required>
+                    <input class="surname " type="text " name="Surname " placeholder=" Last name " maxlength="30 " required>
                 </section>
                 <input class="Full-name " type="text " name="Full name " placeholder="Full name " required>
-                <input class="e-mail " type="e-mail " name="email address " placeholder="Email address " required>
-                <textarea class="textarea " name="textarea " name="subject " placeholder="Write me something... " maxlength="500" required></textarea>
-                <button class="submit-btn" id="submit-btn" type="submit">Get in touch</button>
+                <input class="e-mail " id="e-mail " type=" e-mail " name="email address " placeholder="Email address " required>
+                <textarea class="textarea " name="textarea " name="subject " placeholder="Write me something... " maxlength="500 " required></textarea>
+                <button class="submit-btn " id="submit-btn " type="submit ">Get in touch</button>
             </form>
         </div>
         <footer>
@@ -245,6 +245,7 @@
             </ul>
         </footer>
     </main>
+    <script src="index.js "></script>
 </body>
 
 </html>
