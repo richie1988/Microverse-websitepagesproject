@@ -922,6 +922,9 @@ form {
     }
     .about-section {
         background-image: url("image/Frame.png");
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-position-y: 24%;
     }
     .intro {
         margin-top: 190px;
