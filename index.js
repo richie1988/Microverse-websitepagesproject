@@ -5,6 +5,7 @@ function setupMobileMenu() {
     var menuOptions = document.querySelectorAll('#mobile-menu ul li a');
     var sections = document.querySelectorAll('section');
 
+
     function toggleMobileMenu() {
         mobileMenu.classList.toggle('active');
     }
