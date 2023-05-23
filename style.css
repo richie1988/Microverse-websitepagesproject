@@ -1,3 +1,6 @@
+/* stylelint-disable max-empty-lines */
+
+
 /* stylelint-disable no-missing-end-of-source-newline */
 
 
@@ -1088,4 +1091,30 @@ form {
         padding-top: 3.5em;
         margin-left: 10em;
     }
+}
+
+border: 1px solid #091E42;
+
+}
+.mobile-menu {
+    float: right;
+    display: flex;
+    align-content: center;
+}
+.mylogo {
+    padding-top: 3.5em;
+    margin-left: 10em;
+}
+
+}
+float: right;
+display: flex;
+align-content: center;
+
+}
+.mylogo {
+    padding-top: 3.5em;
+    margin-left: 10em;
+}
+
 }
