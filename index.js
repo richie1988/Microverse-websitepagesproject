@@ -5,28 +5,25 @@ function setupMobileMenu() {
     const menuOptions = document.querySelectorAll('#mobile-menu ul li a');
     const sections = document.querySelectorAll('section');
 
-    function toggleMobileMenu() {
+    hamburgerButton.addEventListener('click', () => {
         mobileMenu.classList.toggle('active');
-    }
+    });
 
-    function hideMobileMenu() {
+    closeMenuButton.addEventListener('click', () => {
         mobileMenu.classList.remove('active');
-    }
+    });
 
-    function handleMenuOptionClick(e) {
-        hideMobileMenu();
-        const targetSectionId = e.target.getAttribute('href');
-        const targetSection = document.querySelector(targetSectionId);
-        sections.forEach(function(section) {
-            section.classList.remove('active');
+    menuOptions.forEach(option => {
+        option.addEventListener('click', e => {
+            e.preventDefault();
+            mobileMenu.classList.remove('active');
+            const targetSectionId = e.target.getAttribute('href');
+            const targetSection = document.querySelector(targetSectionId);
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            targetSection.classList.add('active');
         });
-        targetSection.classList.add('active');
-    }
-    hamburgerButton.addEventListener('click', toggleMobileMenu);
-    closeMenuButton.addEventListener('click', hideMobileMenu);
-
-    menuOptions.forEach(function(option) {
-        option.addEventListener('click', handleMenuOptionClick);
     });
 }
 
