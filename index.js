@@ -22,7 +22,6 @@ function setupMobileMenu() {
         });
         targetSection.classList.add('active');
     }
-
     hamburgerButton.addEventListener('click', toggleMobileMenu);
     closeMenuButton.addEventListener('click', hideMobileMenu);
 

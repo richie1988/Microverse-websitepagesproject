@@ -1,39 +1,3 @@
-/* stylelint-disable no-missing-end-of-source-newline */
-
-
-/* stylelint-disable no-duplicate-selectors */
-
-
-/* stylelint-disable no-descending-specificity */
-
-
-/* stylelint-disable declaration-block-no-duplicate-properties */
-
-
-/* stylelint-disable csstree/validator */
-
-
-/* stylelint-disable color-hex-length */
-
-
-/* stylelint-disable function-calc-no-unspaced-operator */
-
-
-/* stylelint-disable number-no-trailing-zeros */
-
-
-/* stylelint-disable selector-pseudo-element-colon-notation */
-
-
-/* stylelint-disable font-family-no-missing-generic-family-keyword */
-
-
-/* stylelint-disable rule-empty-line-before */
-
-
-/* stylelint-disable color-hex-case */
-
-
 /* stylelint-disable indentation */
 
 body {
@@ -337,8 +301,8 @@ li.b4 {
 
 .btn-projects:active {
     transform: scale(1.1);
-    color: #F4F1F0;
-    background: #E05304;
+    color: hsl(15, 15%, 95%);
+    background: hsl(22, 96%, 45%);
     -webkit-transform: scale(1.0);
 }
 
@@ -462,9 +426,8 @@ li.b4 {
 }
 
 .project-btn1 {
-    background: #FF6B00;
+    background: hsl(25, 100%, 50%);
     justify-content: center;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -500,7 +463,6 @@ li.b4 {
 .Skills-links {
     display: flex;
     border-radius: 0;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -515,7 +477,6 @@ li.b4 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 12px;
     background: rgba(255, 255, 255, 0.24);
     padding: 12px 10px 12px 10px;
 }
@@ -534,7 +495,6 @@ li.b4 {
     flex-direction: row;
     align-items: center;
     align-content: center;
-    padding: 10px 12px;
     background: rgba(255, 255, 255, 0.24);
     padding: 12px 10px 12px 10px;
 }
@@ -565,16 +525,16 @@ li.b4 {
 
 .see-projectbtn:hover {
     transition-duration: 0.2s;
-    color: #F55800;
-    background: #FFF5E1;
+    color: hsl(22, 100%, 48%);
+    background: hsl(40, 100%, 94%);
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
 }
 
 .see-projectbtn:active {
     transform: scale(1.1);
-    color: #F4F1F0;
-    background: #E05304;
+    color: hsl(15, 15%, 95%);
+    background: hsl(22, 96%, 45%);
     -webkit-transform: scale(1.1);
 }
 
@@ -610,13 +570,11 @@ li.b4 {
 .about-section p {
     height: 148px;
     width: 327px;
-    border-radius: nullpx;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #F4F5F7;
+    color: hsl(220, 16%, 96%);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -648,17 +606,16 @@ li.b4 {
 
 .resume-btn:hover {
     transition-duration: 0.2s;
-    color: #F55800;
-    background: #FFF5E1;
+    color: hsl(22, 100%, 48%);
+    background: hsl(40, 100%, 94%);
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
 }
 
 .resume-btn:active {
     transform: scale(1.1);
-    color: #F4F1F0;
-    background: #E05304;
-    -webkit-transform: scale(1.0);
+    color: hsl(15, 15%, 95%);
+    background: hsl(22, 96%, 45%);
 }
 
 .underline-two {
@@ -676,12 +633,11 @@ li.b4 {
 }
 
 .skills-section h2 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
     flex: none;
     flex-grow: 0;
 }
@@ -713,11 +669,10 @@ ul {
 
 .skills-section li {
     margin-top: 34px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
     margin-right: 24px;
 }
 
@@ -732,13 +687,12 @@ ul {
 .form-section h2 {
     width: 327px;
     height: 216px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
     text-align: center;
-    color: #172B4D;
+    color: hsl(218, 54%, 20%);
     flex: none;
     padding: 24px;
     margin-bottom: 73px;
@@ -764,12 +718,11 @@ input {
     border-left: 0;
     border-right: 0;
     border-top: 0;
-    font-family: 'Inter';
     font-style: italic;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: #3C3A39;
+    color: hsl(20, 3%, 23%);
     margin-left: 0;
 }
 
@@ -778,7 +731,7 @@ input {
     width: 100%;
     border: none;
     margin-bottom: 24px;
-    background: #FBF8F7;
+    background: hsl(15, 33%, 98%);
     padding: 12px;
 }
 
@@ -790,7 +743,7 @@ input {
     gap: 10px;
     width: 131px;
     height: 48px;
-    background: #FF6B00;
+    background: hsl(25, 100%, 50%);
     flex: none;
     justify-content: center;
     font-family: 'Inter';
@@ -803,25 +756,25 @@ input {
     margin-right: 121px;
     margin-bottom: 78px;
     border: none;
-    color: #F4F1F0;
+    color: hsl(15, 15%, 95%);
 }
 
 .submit-btn:hover {
     transition-duration: 0.2s;
-    color: #F55800;
-    background: #FFF5E1;
+    color: hsl(22, 100%, 48%);
+    background: hsl(40, 100%, 94%);
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
 }
 
 .see-projectbtn:active {
     transform: scale(1.1);
-    color: #F4F1F0;
-    background: #E05304;
+    color: hsl(15, 15%, 95%);
+    background: hsl(22, 96%, 45%);
     -webkit-transform: scale(1.1);
     transition-duration: 0.2s;
     border: none;
-    background-color: #FF6B00;
+    background-color: hsl(25, 100%, 50%);
 }
 
 footer {
@@ -841,22 +794,22 @@ footer ul {
     height: 5px;
     left: calc(50% - 134px/2 - 0.5px);
     bottom: 8px;
-    background: #0D151E;
+    background: hsl(212, 40%, 8%);
     border-radius: 10px;
 }
 
 .submit:hover {
     transition-duration: 0.2s;
-    color: #F55800;
-    background: #FFF5E1;
+    color: hsl(22, 100%, 48%);
+    background: hsl(40, 100%, 94%);
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
 }
 
 .submit:active {
     transform: scale(1.1);
-    color: #F4F1F0;
-    background: #E05304;
+    color: hsl(15, 15%, 95%);
+    background: hsl(22, 96%, 45%);
     -webkit-transform: scale(1.0);
 }
 
@@ -962,12 +915,11 @@ form {
     }
     .intro p {
         min-width: 566px;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 32px;
-        color: #F4F5F7;
+        color: hsl(220, 16%, 96%);
     }
     .form-section {
         display: flex;
@@ -976,7 +928,6 @@ form {
         flex-wrap: wrap;
     }
     .form-section h2 {
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
@@ -998,7 +949,7 @@ form {
         height: 114px;
         width: 100%;
         border: none;
-        background: #FBF8F7;
+        background: hsl(15, 33%, 98%);
         padding: 12px;
     }
     .card-section {
@@ -1007,15 +958,15 @@ form {
     }
     button:hover {
         transition-duration: 0.2s;
-        color: #F55800;
-        background: #FFF5E1;
+        color: hsl(22, 100%, 48%);
+        background: hsl(40, 100%, 94%);
         transform: scale(1.1);
         -webkit-transform: scale(1.1);
     }
     button:active {
         transform: scale(1.1);
-        color: #F4F1F0;
-        background: #E05304;
+        color: hsl(15, 15%, 95%);
+        background: hsl(22, 96%, 45%);
         -webkit-transform: scale(1.1);
     }
     .input-section {
@@ -1055,7 +1006,7 @@ form {
         font-weight: 400;
         font-size: 72px;
         line-height: 82px;
-        color: #FF6B00;
+        color: hsl(25, 100%, 50%);
         word-break: break-all;
         padding-bottom: 99px;
     }
@@ -1078,7 +1029,7 @@ form {
     .first-card {
         background-image: url("image/healthcaredata.png");
         background-repeat: no-repeat;
-        border: 1px solid #091E42;
+        border: 1px solid hsl(218, 76%, 15%);
     }
     .mobile-menu {
         float: right;
@@ -1090,3 +1041,6 @@ form {
         margin-left: 10em;
     }
 }
+
+
+/* this is the end of line
