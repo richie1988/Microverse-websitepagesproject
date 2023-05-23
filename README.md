@@ -127,8 +127,7 @@ I would like Thank Microverse Team and my Collabaration partners whom they have 
 👤 **Author2**
 
 - GitHub: [@znation2010](https://github.com/znation2010?tab=repositories)
-- Twitter: [Twitter](comming soon)
-- LinkedIn: [LinkedIn](comming soon)
+
 
 👤 **Author3**
 
