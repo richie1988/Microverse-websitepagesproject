@@ -42,6 +42,14 @@ body {
     height: 100%;
 }
 
+section {
+    display: none;
+}
+
+section.active {
+    display: block;
+}
+
 #mobile-menu.active {
     display: block;
     position: fixed;
@@ -53,10 +61,6 @@ body {
     z-index: 99;
     background: black;
     list-style: none;
-}
-
-section.active {
-    display: block;
 }
 
 .item {
