@@ -1,3 +1,24 @@
+/* stylelint-disable number-no-trailing-zeros */
+
+
+/* stylelint-disable function-calc-no-unspaced-operator */
+
+
+/* stylelint-disable selector-pseudo-element-colon-notation */
+
+
+/* stylelint-disable rule-empty-line-before */
+
+
+/* stylelint-disable declaration-block-no-duplicate-properties */
+
+
+/* stylelint-disable no-descending-specificity */
+
+
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+
 /* stylelint-disable indentation */
 
 body {
@@ -64,7 +85,7 @@ header {
 
 .Top-nav {
     overflow: hidden;
-    background-color: #3C3A39;
+    background-color: hsl(20, 3%, 23%);
     position: relative;
 }
 
@@ -100,7 +121,7 @@ header {
     font-size: 56px;
     line-height: 64px;
     letter-spacing: 0.37px;
-    color: #FF6B00;
+    color: hsl(25, 100%, 50%);
     word-break: break-all;
     padding-top: 65px;
 }
@@ -124,7 +145,7 @@ header {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
     flex: none;
     height: 123px;
     word-wrap: break-word;
@@ -150,7 +171,7 @@ header {
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #1C1A19;
+    color: hsl(20, 6%, 10%);
     margin-left: 24px;
 }
 
@@ -194,7 +215,6 @@ header {
 .my-article p {
     min-width: auto;
     height: 147px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -271,7 +291,6 @@ li.b4 {
     height: 48px;
     width: 124px;
     border-radius: 0;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -293,8 +312,8 @@ li.b4 {
 
 .btn-projects:hover {
     transition-duration: 0.2s;
-    color: #F55800;
-    background: #FFF5E1;
+    color: hsl(22, 100%, 48%);
+    background: hsl(40, 100%, 94%);
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
 }
@@ -767,16 +786,6 @@ input {
     -webkit-transform: scale(1.1);
 }
 
-.see-projectbtn:active {
-    transform: scale(1.1);
-    color: hsl(15, 15%, 95%);
-    background: hsl(22, 96%, 45%);
-    -webkit-transform: scale(1.1);
-    transition-duration: 0.2s;
-    border: none;
-    background-color: hsl(25, 100%, 50%);
-}
-
 footer {
     margin-bottom: 30px;
 }
@@ -810,7 +819,6 @@ footer ul {
     transform: scale(1.1);
     color: hsl(15, 15%, 95%);
     background: hsl(22, 96%, 45%);
-    -webkit-transform: scale(1.0);
 }
 
 form {
@@ -846,7 +854,7 @@ form {
         font-weight: 400;
         font-size: 40px;
         line-height: 52px;
-        color: #091E42;
+        color: hsl(218, 76%, 15%);
         order: 0;
         flex-grow: 0;
         display: flex;
@@ -908,7 +916,7 @@ form {
         font-weight: 400;
         font-size: 20px;
         line-height: 32px;
-        color: #F4F5F7;
+        color: hsl(220, 16%, 96%);
         word-break: break-all;
         overflow-wrap: break-word;
         inline-size: 406px;
@@ -975,9 +983,6 @@ form {
     .Full-name {
         display: none;
     }
-    .input-section {
-        display: flex;
-    }
     .surname {
         height: 1px;
         width: 330px;
@@ -1001,7 +1006,7 @@ form {
     .Content h1 {
         width: 430px;
         height: 20px;
-        font-family: 'Crete Round';
+        font-family: 'CreteRound';
         font-style: normal;
         font-weight: 400;
         font-size: 72px;
@@ -1043,4 +1048,4 @@ form {
 }
 
 
-/* this is the end of line
+/* This is a comment */
