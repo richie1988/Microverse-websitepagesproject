@@ -24,6 +24,7 @@ function setupMobileMenu() {
     }
 
     hamburgerButton.addEventListener('click', toggleMobileMenu);
+    --
     closeMenuButton.addEventListener('click', hideMobileMenu);
 
     menuOptions.forEach(function(option) {
