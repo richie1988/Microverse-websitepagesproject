@@ -586,8 +586,8 @@ li.b4 {
     background-color: #1c1a19;
     background-image: url("image/About-flamemobile.png");
     background-repeat: no-repeat;
-    background-position: 100% 10%;
-    background-position-y: 20.7%;
+    background-position: 100%;
+    background-position-y: 80.7%;
     margin-top: 120px;
     justify-content: center;
     padding-bottom: 60px;
@@ -922,6 +922,9 @@ form {
     }
     .about-section {
         background-image: url("image/Frame.png");
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-position-y: 24%;
     }
     .intro {
         margin-top: 190px;
