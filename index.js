@@ -1,9 +1,9 @@
 function setupMobileMenu() {
-    const hamburgerButton = document.getElementById('hamburger');
-    const closeMenuButton = document.getElementById('close-menu');
-    const mobileMenu = document.getElementById('mobile-menu');
-    const menuOptions = document.querySelectorAll('#mobile-menu ul li a');
-    const sections = document.querySelectorAll('section');
+    var hamburgerButton = document.getElementById('hamburger');
+    var closeMenuButton = document.getElementById('close-menu');
+    var mobileMenu = document.getElementById('mobile-menu');
+    var menuOptions = document.querySelectorAll('#mobile-menu ul li a');
+    var sections = document.querySelectorAll('section');
 
     function toggleMobileMenu() {
         mobileMenu.classList.toggle('active');
