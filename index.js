@@ -1,9 +1,9 @@
 function setupMobileMenu() {
-    var hamburgerButton = document.getElementById('hamburger');
-    var closeMenuButton = document.getElementById('close-menu');
-    var mobileMenu = document.getElementById('mobile-menu');
-    var menuOptions = document.querySelectorAll('#mobile-menu ul li a');
-    var sections = document.querySelectorAll('section');
+    const hamburgerButton = document.getElementById('hamburger');
+    const closeMenuButton = document.getElementById('close-menu');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuOptions = document.querySelectorAll('#mobile-menu ul li a');
+    const sections = document.querySelectorAll('section');
 
     function toggleMobileMenu() {
         mobileMenu.classList.toggle('active');
@@ -15,8 +15,8 @@ function setupMobileMenu() {
 
     function handleMenuOptionClick(e) {
         hideMobileMenu();
-        var targetSectionId = e.target.getAttribute('href');
-        var targetSection = document.querySelector(targetSectionId);
+        const targetSectionId = e.target.getAttribute('href');
+        const targetSection = document.querySelector(targetSectionId);
         sections.forEach(function(section) {
             section.classList.remove('active');
         });
