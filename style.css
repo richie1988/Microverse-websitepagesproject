@@ -313,7 +313,7 @@ li.b4 {
     transform: scale(1.1);
     color: hsl(15, 15%, 95%);
     background: hsl(22, 96%, 45%);
-    -webkit-transform: scale(1.0);
+    -webkit-transform: scale(1);
 }
 
 .work-container {
@@ -1052,4 +1052,4 @@ form {
 }
 
 
-/* this is the ednof the line*/
+/* this is the ednof the line */
