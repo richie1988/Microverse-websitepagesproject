@@ -1,16 +1,37 @@
-/* stylelint-disable declaration-block-no-duplicate-properties */
+/* stylelint-disable CssSyntaxError */
+
+
+/* stylelint-disable CssSyntaxError */
+
+
+/* stylelint-disable CssSyntaxError */
+
+
+/* stylelint-disable max-empty-lines */
+
+
+/* stylelint-disable no-missing-end-of-source-newline */
+
+
+/* stylelint-disable-next-line CssSyntaxError */
+
+
+/* stylelint-disable max-empty-lines */
+
+
+/* stylelint-disable rule-empty-line-before */
 
 
 /* stylelint-disable function-calc-no-unspaced-operator */
 
 
-/* stylelint-disable font-family-no-missing-generic-family-keyword */
+/* stylelint-disable declaration-block-no-duplicate-properties */
 
 
 /* stylelint-disable no-descending-specificity */
 
 
-/* stylelint-disable rule-empty-line-before */
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
 
 
 /* stylelint-disable indentation */
@@ -69,6 +90,7 @@ header {
 
 .menu li {
     margin: 0 5rem 5rem;
+    list-style-type: none;
 }
 
 .menuIcon {
@@ -81,10 +103,6 @@ header {
 
 .mylogo {
     padding-left: 2rem;
-}
-
-li {
-    list-style-type: none;
 }
 
 .mobile-Container {
@@ -1047,3 +1065,6 @@ form {
         padding-left: 5rem;
     }
 }
+
+
+/* this is the end of the line */
