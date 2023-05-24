@@ -12,31 +12,30 @@
 
 <body>
 
-
     <main>
-        <header class="Top-nav">
-            <a><img class="mylogo" src="image/My Logo.png" alt="MyLogo"></a>
-            </a>
-            <a class="icon-btn" id="hamburger"><img id=" menu-icon " src="image/Icon - Menu.svg "></a>
-            <nav class="mobile-menu" id="mobile-menu">
-                <button class="close-btn" id="close-menu"><img id=" menu-icon " src="image/cancel.png"></button>
-                <ul class="mobile-menu">
-                    <li><a class="item" href="#section1">Portfolio</a></li>
+        <header>
+            <li>
+                <img class="mylogo" src="image/My Logo.png"></li>
+            <nav>
+                <ul class="menu">
+                    <li><a class="menuItem" href="Home">Home</a></li>
+                    <li><a class="menuItem" href="Profile">Profile</a></li>
+                    <li><a class="menuItem" href="About">About</a></li>
                     <li>
-                        <a class="item" href="#section2">About</a>
-                    </li>
-                    <li>
-                        <a class="item" href="#section3">Contact</a>
-                    </li>
-                    <li>
-                        <a class="item" href="#section3"><img src="image/Email-icon.svg " alt="e-mail "></a>
+                        <a class="menuItem" href="Contacts">
+                            <img src="image/Email-icon.svg"></a>
                     </li>
                 </ul>
             </nav>
+            <a class="hamburger">
+                <!-- material icons https://material.io/resources/icons/ -->
+                <i class="menuIcon material-icons"><img class="menuIcon" src="image/Icon - Menu.svg"></i>
+                <i class="closeIcon material-icons"><img class="close" src="image/cancel.png" ></i>
+            </a>
         </header>
         <div class="mobile-Container ">
 
-            <article class="Content " id="#">
+            <article class="Content " id="Home">
                 <h1>Hey There.I’m Richard.</h1>
                 <h2>I' m a Software Developer</h2>
                 <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
@@ -95,7 +94,7 @@
                 <button class="project-btn1 ">See project</button>
             </article>
         </div>
-        <div class="card-container " id="Section1">
+        <div class="card-container " id="Profile">
             <div class="first-card ">
                 <article>
                     <h2>Profesional Art Printing Data</h2>
@@ -138,7 +137,7 @@
                 <a class="see-projectbtn ">See project</a>
             </div>
 
-            <div class="fouth-card ">
+            <div class="fouth-card">
                 <article>
                     <h2>Profesional Art Printing Data</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
@@ -165,7 +164,7 @@
                 <a class="see-projectbtn ">See project</a>
             </div>
 
-            <div class="six-card">
+            <div class="six-card ">
                 <article>
                     <h2>Profesional Art Printing Data</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
@@ -179,7 +178,7 @@
                 <a class="see-projectbtn ">See project</a>
             </div>
         </div>
-        <div class="about-section " id="section2">
+        <div class="about-section " id="Profile">
             <article class="intro ">
                 <h3>About me</h3>
                 <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
@@ -220,7 +219,7 @@
                 </ul>
             </section>
         </div>
-        <div class="form-section " id="section3">
+        <div class="form-section " id="Contacts">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 
             <form action="https://formspree.io/f/mrgvjnke " method="post ">
@@ -231,7 +230,7 @@
                 <input class="Full-name " type="text " name="Full name " placeholder="Full name " required>
                 <input class="e-mail " id="e-mail " type=" e-mail " name="email address " placeholder="Email address " required>
                 <textarea class="textarea " name="textarea " name="subject " placeholder="Write me something... " maxlength="500 " required></textarea>
-                <button class="submit-btn" id="submit-btn" type="submit">Get in touch</button>
+                <button class="submit-btn " id="submit-btn " type="submit ">Get in touch</button>
             </form>
         </div>
         <footer>
@@ -247,6 +246,8 @@
     </main>
     <script src="index.js "></script>
 </body>
+
+</html>
 
 </html>
 
