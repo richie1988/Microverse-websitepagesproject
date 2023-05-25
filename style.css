@@ -1,11 +1,11 @@
-/* stylelint-disable max-empty-lines */
+/* stylelint-disable csstree/validator */
 
 
 /* stylelint-disable no-missing-end-of-source-newline */
 
 
-
 /* stylelint-disable-next-line CssSyntaxError */
+
 
 /* stylelint-disable rule-empty-line-before */
 
@@ -53,7 +53,6 @@ header {
 .closeIcon {
     display: none;
     padding: 10px;
-    background: white;
 }
 
 .menu {
@@ -65,20 +64,28 @@ header {
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: black;
+    background: rgba(60, 58, 57, 1);
     list-style: none;
     padding-top: 4rem;
     margin-top: 0;
 }
 
+.email-icon {
+    display: none;
+}
+
 .menu a {
     font-size: 39px;
-    color: hsl(25, 100%, 50%);
+    color: hwb(41 88% 0%);
+    text-decoration: none;
 }
 
 .menu li {
-    margin: 0 5rem 5rem;
+    margin-top: 2rem;
     list-style-type: none;
+    border-bottom: 2px solid rgba(111, 108, 107, 1);
+    padding-left: -3%;
+    margin-right: 2rem;
 }
 
 .menuIcon {
@@ -1048,10 +1055,15 @@ form {
     }
     .menu li {
         margin: 0 2rem 5rem;
+        border: none;
     }
     .mylogo {
         padding-left: 5rem;
     }
 }
+
+
+/* this is the end of the line */
+
 
 /* this is the end of the line */
