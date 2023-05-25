@@ -71,16 +71,18 @@ header {
     list-style: none;
     padding-top: 4rem;
     margin-top: 0;
-}
-
-.email-icon {
-    display: none;
+    height: 100%;
 }
 
 .menu a {
-    font-size: 39px;
+    font-size: 32px;
     color: hwb(41 88% 0%);
     text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
 }
 
 .menu li {
@@ -89,6 +91,11 @@ header {
     border-bottom: 2px solid rgba(111, 108, 107, 1);
     padding-left: -3%;
     margin-right: 2rem;
+    padding-left: 1rem;
+}
+
+.email-bar {
+    display: none;
 }
 
 .menuIcon {
@@ -1041,7 +1048,7 @@ form {
         display: flex;
         margin-top: 5.5rem;
         background: none;
-        margin-left: 44rem;
+        margin-left: 33rem;
         position: relative;
         padding-top: 0;
         transform: none;
@@ -1062,6 +1069,10 @@ form {
     }
     .mylogo {
         padding-left: 5rem;
+    }
+    .email-bar {
+        display: flex;
+        cursor: pointer;
     }
 }
 
