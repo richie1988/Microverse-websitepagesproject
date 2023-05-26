@@ -74,6 +74,11 @@ header {
     height: 100%;
 }
 
+.first-card.active {
+    background-color: aqua;
+    width: 90px;
+}
+
 .menu a {
     font-size: 32px;
     color: hwb(41 88% 0%);
@@ -314,7 +319,7 @@ li.b4 {
     background: #ff6b00;
 }
 
-.card-container {
+.cardcontainer {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
@@ -468,7 +473,7 @@ li.b4 {
     padding: 12px;
 }
 
-.card-container h2 {
+.cardcontainer h2 {
     color: #fff;
     font-family: 'Crete Round';
     font-style: normal;
@@ -479,7 +484,7 @@ li.b4 {
     margin-bottom: -24px;
 }
 
-.card-container p {
+.cardcontainer p {
     color: #fff;
     font-family: 'Inter';
     font-style: normal;
@@ -1075,6 +1080,216 @@ form {
         cursor: pointer;
     }
 }
+
+.projectcard {
+    left: 16px;
+    border-radius: 0;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    margin-top: 1rem;
+}
+
+.cardmg {
+    height: 220px;
+    width: 311px;
+    left: 16px;
+    top: 170px;
+    border-radius: 0;
+}
+
+.projectcard h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    margin-top: 0;
+    list-style: none;
+    gap: 3rem;
+}
+
+.cardlink {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding-left: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.html1 {
+    width: 59px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0 18px 5px;
+    width: 59px;
+    height: 36px;
+    border: 1px solid #979493;
+    font-weight: 600;
+}
+
+.html2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    border: 1px solid #979493;
+    font-weight: 600;
+}
+
+.html3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    border: 1px solid #979493;
+    font-weight: 600;
+}
+
+.projectcard p {
+    width: 311px;
+    height: 190px;
+    height: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    flex-flow: wrap;
+    text-overflow: ellipsis;
+    padding: 0;
+}
+
+.fafatime {
+    float: right;
+}
+
+.btn {
+    height: 56px;
+    width: 311px;
+    top: 232px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.cardlivebtn {
+    padding: 12px;
+    background: rgba(255, 107, 0, 1);
+    height: 48px;
+    width: 129px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.sourcebtn {
+    background: rgba(255, 107, 0, 1);
+    padding: 12px;
+    width: 158px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.desktopcard {
+    height: 631px;
+    width: 1156px;
+    left: 0;
+    top: 0;
+    background-color: red;
+}
+
+.cardlinks {
+    display: flex;
+    gap: 12px;
+}
+
+.sectionart {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    overflow: wrap;
+}
+
+.cardimge {
+    height: 448px;
+    width: 659px;
+    left: 24px;
+    top: 156px;
+    border-radius: 0;
+    background-color: blue;
+    margin: 24px;
+}
+
+.paragraph {
+    height: 336px;
+    width: 424px;
+    left: 0;
+    top: 0;
+    border-radius: nullpx;
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(52, 69, 99, 1);
+}
+
+.sourceinks {
+    display: flex;
+    column-gap: 17px;
+    list-style: none;
+    margin-top: 5.5rem;
+}
+
+.desktopcard h2 {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 24px;
+}
+
+.main {
+    width: 100vh;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgba(52, 69, 99, 1 30%);
+    display: flex;
+    justify-content: center;
+}
+
+
+/* this is the end of the line */
+
+
+/* this is the end of the line */
+
+
+/* this is the end of the line */
 
 
 /* this is the end of the line */

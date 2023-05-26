@@ -27,7 +27,7 @@
 
                     </li>
 
-                    <li class="menuItem  email-bar" href="#Contacts">
+                    <li class="menuItem  email-bar" href="#Contact">
                         <img class="email-icon " src="image/Email-icon.svg "></li>
 
 
@@ -36,10 +36,10 @@
             <a class="hamburger ">
                 <!-- mobile menu icon button-->
                 <i class="menuIcon material-icons "><img class="menuIcon " src="image/Icon - Menu.svg "></i>
-                <i class="closeIcon material-icons "><img class="close " src="image/Icon@2x.png " ></i>
+                <i class="closeIcon material-icons "><img class="close " src="image/xclose.png" ></i>
             </a>
         </header>
-        <div class="mobile-Container ">
+        <div class="mobile-Container" id="mobileContainer">
 
             <article class="Content " id="Home">
                 <h1>Hey There.I’m Richard.</h1>
@@ -83,12 +83,12 @@
             <h1>My Recent works</h1>
             <hr class=" underline-one ">
         </section>
-        <div class="Featured-info ">
+        <div class="Featured-info">
 
             <image class="myphoto " src="image/Img Placeholder (1).png ">
             </image>
 
-            <article class="my-article">
+            <article class="my-article" id="articleCard">
                 <h2>Multi-Post Stories</h2>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
                 <ul class=" mylinks ">
@@ -97,10 +97,10 @@
                     <li class="b3 ">Bootstrap</li>
                     <li class="b4 ">Ruby</li>
                 </ul>
-                <button class="project-btn1 ">See project</button>
+                <button class="project-btn1" onclick="show()"> See project </button>
             </article>
         </div>
-        <div class="card-container " id="Profile">
+        <div class="cardcontainer" id="Profile">
             <div class="first-card ">
                 <article>
                     <h2>Profesional Art Printing Data</h2>
@@ -112,7 +112,7 @@
                         <li class="b7 ">Ruby</li>
                     </ul>
                 </article>
-                <a class="see-projectbtn ">See project</a>
+                <buttton class="see-projectbtn" onclick="show()"> See project</buttton>
             </div>
 
             <div class="second-card ">
@@ -225,7 +225,7 @@
                 </ul>
             </section>
         </div>
-        <div class="form-section " id="Contacts">
+        <div class="form-section " id="Contact">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 
             <form action="https://formspree.io/f/mrgvjnke " method="post ">
