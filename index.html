@@ -12,36 +12,41 @@
 
 <body>
 
-
     <main>
-        <header class="Top-nav">
-            <a><img class="mylogo" src="image/My Logo.png" alt="MyLogo"></a>
-            </a>
-            <a class="icon-btn" id="hamburger"><img id=" menu-icon " src="image/Icon - Menu.svg "></a>
-            <nav class="mobile-menu" id="mobile-menu">
-                <button class="close-btn" id="close-menu"><img id=" menu-icon " src="image/cancel.png"></button>
-                <ul class="mobile-menu">
-                    <li><a class="item" href="#section1">Portfolio</a></li>
+        <header>
+            <li>
+                <img class="mylogo" src="image/My Logo.png"></li>
+            <nav>
+                <ul class="menu">
+                    <li><a class="menuItem" href="#Home">Portfolio</a></li>
                     <li>
-                        <a class="item" href="#section2">About</a>
+                        <a class="menuItem" href="#Profile">About</a>
                     </li>
                     <li>
-                        <a class="item" href="#section3">Contact</a>
+                        <a class="menuItem" href="#About">Contact</a>
+
                     </li>
-                    <li>
-                        <a class="item" href="#section3"><img src="image/Email-icon.svg " alt="e-mail "></a>
-                    </li>
+
+                    <li class="menuItem  email-bar" href="#Contact">
+                        <img class="email-icon " src="image/Email-icon.svg "></li>
+
+
                 </ul>
             </nav>
+            <a class="hamburger ">
+                <!-- mobile menu icon button-->
+                <i class="menuIcon material-icons "><img class="menuIcon " src="image/Icon - Menu.svg "></i>
+                <i class="closeIcon material-icons "><img class="close " src="image/xclose.png" ></i>
+            </a>
         </header>
-        <div class="mobile-Container ">
+        <div class="mobile-Container" id="mobileContainer">
 
-            <article class="Content " id="portfolio">
+            <article class="Content " id="Home">
                 <h1>Hey There.I’m Richard.</h1>
                 <h2>I' m a Software Developer</h2>
                 <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
             </article>
-            <section class="social-media ">
+            <div class="social-media ">
                 <ul>
                     <li>
                         <a>
@@ -70,7 +75,7 @@
                         </a>
                     </li>
                 </ul>
-            </section>
+            </div>
 
         </div>
 
@@ -78,12 +83,12 @@
             <h1>My Recent works</h1>
             <hr class=" underline-one ">
         </section>
-        <div class="Featured-info ">
+        <div class="Featured-info">
 
             <image class="myphoto " src="image/Img Placeholder (1).png ">
             </image>
 
-            <article class="my-article ">
+            <article class="my-article" id="articleCard">
                 <h2>Multi-Post Stories</h2>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
                 <ul class=" mylinks ">
@@ -92,10 +97,10 @@
                     <li class="b3 ">Bootstrap</li>
                     <li class="b4 ">Ruby</li>
                 </ul>
-                <button class="project-btn1 ">See project</button>
+                <button class="project-btn1" onclick="show()"> See project </button>
             </article>
         </div>
-        <div class="card-container " id="card-Section ">
+        <div class="cardcontainer" id="Profile">
             <div class="first-card ">
                 <article>
                     <h2>Profesional Art Printing Data</h2>
@@ -107,7 +112,7 @@
                         <li class="b7 ">Ruby</li>
                     </ul>
                 </article>
-                <a class="see-projectbtn ">See project</a>
+                <buttton class="see-projectbtn" onclick="show()"> See project</buttton>
             </div>
 
             <div class="second-card ">
@@ -179,7 +184,7 @@
                 <a class="see-projectbtn ">See project</a>
             </div>
         </div>
-        <div class="about-section " id="about ">
+        <div class="about-section " id="About">
             <article class="intro ">
                 <h3>About me</h3>
                 <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
@@ -220,7 +225,7 @@
                 </ul>
             </section>
         </div>
-        <div class="form-section " id="contact ">
+        <div class="form-section " id="Contact">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 
             <form action="https://formspree.io/f/mrgvjnke " method="post ">
@@ -229,9 +234,9 @@
                     <input class="surname " type="text " name="Surname " placeholder=" Last name " maxlength="30 " required>
                 </section>
                 <input class="Full-name " type="text " name="Full name " placeholder="Full name " required>
-                <input class="e-mail " id="e-mail " type=" e-mail " name="email address " placeholder="Email address " required>
-                <textarea class="textarea " name="textarea " name="subject " placeholder="Write me something... " maxlength="500 " required></textarea>
-                <button class="submit-btn" id="submit-btn " type="submit">Get in touch</button>
+                <input class="e-mail " id="e-mail " type="e-mail " name="email address " placeholder="Email address " required>
+                <textarea class="textarea " type="text " name="subject " placeholder="Write me something... " maxlength="500 " required></textarea>
+                <button class="submit-btn" id="submit-btn" type="submit">Get in touch</button>
             </form>
         </div>
         <footer>
@@ -247,6 +252,8 @@
     </main>
     <script src="index.js "></script>
 </body>
+
+</html>
 
 </html>
 

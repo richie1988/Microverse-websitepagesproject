@@ -127,14 +127,12 @@ I would like Thank Microverse Team and my Collabaration partners whom they have 
 👤 **Author2**
 
 - GitHub: [@znation2010](https://github.com/znation2010?tab=repositories)
-- Twitter: [Twitter](comming soon)
-- LinkedIn: [LinkedIn](comming soon)
 
 👤 **Author3**
 
-- GitHub: [brighton0102](htpps://github.com/brighton0102)
-- Twitter: [@brighton_ui](https://twitter.com/brighton_ui)
-- LinkedIn: [brighton](https://www.linkedin.com/in/brighton-mtandi-976615267/)
+- GitHub: [Al Amin Khan Shakil](htpps://github.com/Al-Amin-Khan-Shakil)
+- Twitter: [Al Amin Khan Shakil](https://twitter.com/Al-Amin-Khan-Shakil)
+- LinkedIn: [Al Amin Khan Shakil](https://www.linkedin.com/Al-Amin-Khan-Shakil)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
