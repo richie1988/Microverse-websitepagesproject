@@ -97,7 +97,7 @@
                     <li class="b3 ">Bootstrap</li>
                     <li class="b4 ">Ruby</li>
                 </ul>
-                <button class="project-btn1" onclick="show()"> See project </button>
+                <button class="project-btn1" id="showDetailsBtn" onclick="openCard()"> See project </button>
             </article>
         </div>
         <div class="cardcontainer" id="Profile">
@@ -112,7 +112,7 @@
                         <li class="b7 ">Ruby</li>
                     </ul>
                 </article>
-                <buttton class="see-projectbtn" onclick="show()"> See project</buttton>
+                <buttton class="see-projectbtn" id="showCard" onclick="show()"> See project</buttton>
             </div>
 
             <div class="second-card ">
@@ -227,16 +227,15 @@
         </div>
         <div class="form-section " id="Contact">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-
-            <form action="https://formspree.io/f/mrgvjnke " method="post ">
-
-                <section class="input-section "> <input class="name " type="text " name="Full name " placeholder="Full name " maxlength="30 " required>
-                    <input class="surname " type="text " name="Surname " placeholder=" Last name " maxlength="30 " required>
+            <form action="https://formspree.io/f/mrgvjnke" method="post" id="Form">
+                <section class="input-section">
+                    <input class="name" type="text" name="Fullname" placeholder="Fullname" maxlength="30" required required pattern="[A-Za-z]+">
+                    <input class="surname" type="text" name="Surname" placeholder="Lastname" maxlength="30" required required pattern="[A-Za-z]+">
                 </section>
-                <input class="Full-name " type="text " name="Full name " placeholder="Full name " required>
-                <input class="e-mail " id="e-mail " type="e-mail " name="email address " placeholder="Email address " required>
-                <textarea class="textarea " type="text " name="subject " placeholder="Write me something... " maxlength="500 " required></textarea>
-                <button class="submit-btn" id="submit-btn" type="submit">Get in touch</button>
+                <span id="error" style="color: red;"></span>
+                <input class="e-mail" type="email" id="e-mail" placeholder="Email" maxlength="500" required>
+                <textarea class="textarea " type="text " name="subject " placeholder="Write me something... " maxlength="500" required></textarea>
+                <button class="submit-btn" id="submit" type="submit">Get in touch</button>
             </form>
         </div>
         <footer>
@@ -252,9 +251,5 @@
     </main>
     <script src="index.js "></script>
 </body>
-
-</html>
-
-</html>
 
 </html>

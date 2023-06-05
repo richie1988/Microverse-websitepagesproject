@@ -32,7 +32,15 @@ body {
     font-family: Arial, Helvetica, sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 }
 
 header {
@@ -713,15 +721,14 @@ ul {
 
 .form-section {
     height: auto;
-    width: auto;
-    left: -1px;
+    width: 100%;
     top: 5887px;
     border-radius: 0;
 }
 
 .form-section h2 {
-    width: 327px;
-    height: 216px;
+    width: fit-content;
+    height: auto;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -730,7 +737,6 @@ ul {
     color: hsl(218, 54%, 20%);
     flex: none;
     padding: 24px;
-    margin-bottom: 73px;
 }
 
 input {
@@ -740,14 +746,11 @@ input {
     border-left: 0;
     border-right: 0;
     border-top: 0;
-}
-
-.input-section {
-    display: none;
+    margin-left: -1rem;
 }
 
 .e-mail {
-    width: 100%;
+    width: 99%;
     margin-bottom: 24px;
     padding: 12px;
     border-left: 0;
@@ -758,7 +761,7 @@ input {
     font-size: 15px;
     line-height: 24px;
     color: hsl(20, 3%, 23%);
-    margin-left: 0;
+    margin-left: -1rem;
 }
 
 .textarea {
@@ -768,6 +771,7 @@ input {
     margin-bottom: 24px;
     background: hsl(15, 33%, 98%);
     padding: 12px;
+    margin-left: -1rem;
 }
 
 .submit-btn {
@@ -954,21 +958,33 @@ form {
         color: #262626;
         width: 455px;
         overflow-wrap: break-word;
-        height: 256px;
+        height: auto;
         inline-size: 399px;
         display: flex;
-        margin-top: -2ex;
+        margin-top: -12%;
     }
     .submit-btn {
         margin-bottom: 154px;
         margin-left: 10px;
     }
+    .surname {
+        margin-left: -5px;
+        height: 1px;
+        width: 330px;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: -30px;
+    }
     .textarea {
         height: 114px;
-        width: 100%;
+        width: 99%;
         border: none;
         background: hsl(15, 33%, 98%);
         padding: 12px;
+        margin-left: -1rem;
     }
     .card-section {
         background-image: url("image/webportfolio.png");
@@ -992,16 +1008,6 @@ form {
     }
     .Full-name {
         display: none;
-    }
-    .surname {
-        height: 1px;
-        width: 330px;
-        border-left: 0;
-        border-right: 0;
-        border-top: 0;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        padding-right: -30px;
     }
     .name {
         height: 1px;
@@ -1079,10 +1085,191 @@ form {
         display: flex;
         cursor: pointer;
     }
+    .article {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: blue;
+    }
+    .cardarticle {
+        display: block;
+        width: fit-content;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #344563;
+        margin-left: 24px;
+    }
+    .cardarticle p {
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+    #popup {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        width: 80%;
+        min-height: fit-content;
+    }
+    .cardlinks {
+        display: flex;
+        column-gap: 12px;
+        list-style: none;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ul .linkBtn {
+        align-items: center;
+        padding: 10px 12px;
+        border: 1px solid #979493;
+        font-family: 'Poppins'sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        color: hsl(20, 3%, 23%);
+    }
+    .button-section {
+        margin-top: 4rem;
+        list-style: none;
+        display: flex;
+        column-gap: 24px;
+        width: fit-content;
+        align-items: center;
+    }
+    .hh3 {
+        display: none;
+    }
 }
 
 
-/* this is the end of the line */
+/* this is the popupcard */
 
+#popupContainer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
 
-/* this is the end of the line */
+#popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    min-height: fit-content;
+}
+
+#popup h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: hsl(218, 54%, 20%);
+}
+
+#XcloseBtn {
+    margin-top: 10px;
+    float: right;
+    color: rgba(103, 121, 142, 1);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cardarticle p {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.livebtn {
+    background: hsl(22, 100%, 48%);
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    border: none;
+    list-style: none;
+}
+
+.livebtn img {
+    margin-left: 12px;
+}
+
+.popUPimage {
+    width: 100%;
+}
+
+@media screen and (max-width: 420px) {
+    .surname {
+        display: none;
+    }
+    .cardarticle {
+        color: rgba(103, 121, 142, 1);
+    }
+    .button-section {
+        display: flex;
+        column-gap: 24px;
+        width: fit-content;
+        align-items: center;
+        list-style: none;
+        padding-top: 16px;
+    }
+    .cardlinks {
+        display: flex;
+        column-gap: 12px;
+        list-style: none;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ul .linkBtn {
+        align-items: center;
+        height: 36px;
+        border: 1px solid #979493;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        padding: 0 10px;
+        font-family: 'Poppins'sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        color: hsl(20, 3%, 23%);
+    }
+    .p1 {
+        display: none;
+    }
+    .p2 {
+        line-height: 24px;
+    }
+    .hh3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        color: hsl(218, 54%, 20%);
+        margin-top: 24px;
+    }
+    .hh2 {
+        display: none;
+    }
+}
