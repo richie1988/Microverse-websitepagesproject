@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Andada+Pro:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round:regular,italic" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <title>Mobile portfolio finish</title>
 </head>
@@ -12,50 +15,50 @@
 
 <body>
 
+
+    <header>
+        <li>
+            <img class="mylogo" src="image/My Logo.png"></li>
+        <nav>
+            <ul class="menu">
+                <li><a class="menuItem" href="#Home">Portfolio</a></li>
+                <li>
+                    <a class="menuItem" href="#Profile">About</a>
+                </li>
+                <li>
+                    <a class="menuItem" href="#About">Contact</a>
+
+                </li>
+
+                <li class="menuItem  email-bar" href="#Contact">
+                    <img class="email-icon " src="image/Email-icon.svg "></li>
+
+
+            </ul>
+        </nav>
+        <a class="hamburger">
+            <!-- mobile menu icon button-->
+            <li class="menuIcon  material-icons"><img class="menuIcon" src="image/Icon - Menu.svg "></li>
+            <li class="closeIcon  material-icons"><img class="close" src="image/xclose.png"></li>
+        </a>
+    </header>
     <main>
-        <header>
-            <li>
-                <img class="mylogo" src="image/My Logo.png"></li>
-            <nav>
-                <ul class="menu">
-                    <li><a class="menuItem" href="#Home">Portfolio</a></li>
-                    <li>
-                        <a class="menuItem" href="#Profile">About</a>
-                    </li>
-                    <li>
-                        <a class="menuItem" href="#About">Contact</a>
-
-                    </li>
-
-                    <li class="menuItem  email-bar" href="#Contact">
-                        <img class="email-icon " src="image/Email-icon.svg "></li>
-
-
-                </ul>
-            </nav>
-            <a class="hamburger ">
-                <!-- mobile menu icon button-->
-                <i class="menuIcon material-icons "><img class="menuIcon " src="image/Icon - Menu.svg "></i>
-                <i class="closeIcon material-icons "><img class="close " src="image/xclose.png" ></i>
-            </a>
-        </header>
         <div class="mobile-Container" id="mobileContainer">
-
-            <article class="Content " id="Home">
+            <article class="Content" id="Home">
                 <h1>Hey There.I’m Richard.</h1>
                 <h2>I' m a Software Developer</h2>
                 <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
             </article>
-            <div class="social-media ">
+            <section class="social-media">
                 <ul>
                     <li>
                         <a>
-                            <img src="image/Vector (4).svg ">
+                            <img src="image/Vector (4).svg">
                         </a>
                     </li>
                     <li>
                         <a>
-                            <img src="image/Icon - Linkedin.svg ">
+                            <img src="image/Icon - Linkedin.svg">
                         </a>
                     </li>
                     <li>
@@ -66,53 +69,51 @@
                     <li>
 
                         <a>
-                            <img src="image/Vector (2).svg ">
+                            <img src="image/Vector (2).svg">
                         </a>
                     </li>
                     <li>
                         <a>
-                            <img src="image/Vector.svg ">
+                            <img src="image/Vector.svg">
                         </a>
                     </li>
                 </ul>
-            </div>
-
+            </section>
         </div>
-
-        <section class="Title ">
+        <section class="Title">
             <h1>My Recent works</h1>
-            <hr class=" underline-one ">
+            <hr/>
         </section>
         <div class="Featured-info">
 
-            <image class="myphoto " src="image/Img Placeholder (1).png ">
+            <image class="myphoto" src="image/Img Placeholder (1).png">
             </image>
 
             <article class="my-article" id="articleCard">
                 <h2>Multi-Post Stories</h2>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                <ul class=" mylinks ">
-                    <li class="b1 ">CSS</li>
-                    <li class="b2 ">HTML</li>
-                    <li class="b3 ">Bootstrap</li>
-                    <li class="b4 ">Ruby</li>
+                <ul class=" mylinks">
+                    <li class="b1">CSS</li>
+                    <li class="b2">HTML</li>
+                    <li class="b3">Bootstrap</li>
+                    <li class="b4">Ruby</li>
                 </ul>
-                <button class="project-btn1" id="showDetailsBtn" onclick="openCard()"> See project </button>
+                <button class="first-projectbtn" id="showDetailsBtn" onclick="openCard()"> See project </button>
             </article>
         </div>
-        <div class="cardcontainer" id="Profile">
-            <div class="first-card ">
+        <div class="card-container " id="Profile ">
+            <div class="first-card">
                 <article>
                     <h2>Profesional Art Printing Data</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
 
-                    <ul class="Skills-links ">
+                    <ul class="card-Skills-links ">
                         <li class="b5 ">HTML</li>
                         <li class="b6 ">Bootstrap</li>
                         <li class="b7 ">Ruby</li>
                     </ul>
                 </article>
-                <buttton class="see-projectbtn" id="showCard" onclick="show()"> See project</buttton>
+                <buttton class="card-projectbtn" id="showCard " onclick="show() "> See project</buttton>
             </div>
 
             <div class="second-card ">
@@ -120,13 +121,13 @@
                     <h2>Profesional Art Printing Data</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
 
-                    <ul class="Skills-links ">
+                    <ul class="card-Skills-links ">
                         <li class="b5 ">HTML</li>
                         <li class="b6 ">Bootstrap</li>
                         <li class="b7 ">Ruby</li>
                     </ul>
                 </article>
-                <a class="see-projectbtn ">See project</a>
+                <a class="card-projectbtn ">See project</a>
             </div>
 
             <div class="third-card ">
@@ -134,13 +135,13 @@
                     <h2>Profesional Art Printing Data</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
 
-                    <ul class="Skills-links ">
+                    <ul class="card-Skills-links ">
                         <li class="b5 ">HTML</li>
                         <li class="b6 ">Bootstrap</li>
                         <li class="b7 ">Ruby</li>
                     </ul>
                 </article>
-                <a class="see-projectbtn ">See project</a>
+                <a class="card-projectbtn ">See project</a>
             </div>
 
             <div class="fouth-card ">
@@ -148,26 +149,26 @@
                     <h2>Profesional Art Printing Data</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
 
-                    <ul class=" Skills-links ">
+                    <ul class="card-Skills-links ">
                         <li class="b5 ">HTML</li>
                         <li class="b6 ">Bootstrap</li>
                         <li class="b7 ">Ruby</li>
                     </ul>
                 </article>
-                <a class="see-projectbtn ">See project</a>
+                <a class="card-projectbtn ">See project</a>
             </div>
 
             <div class="fifth-card ">
                 <article>
                     <h2>Profesional Art Printing Data</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                    <ul class="Skills-links ">
+                    <ul class="card-Skills-links ">
                         <li class="b5 ">HTML</li>
                         <li class="b6 ">Bootstrap</li>
                         <li class="b7 ">Ruby</li>
                     </ul>
                 </article>
-                <a class="see-projectbtn ">See project</a>
+                <a class="card-projectbtn ">See project</a>
             </div>
 
             <div class="six-card ">
@@ -175,16 +176,16 @@
                     <h2>Profesional Art Printing Data</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
 
-                    <ul class="Skills-links ">
+                    <ul class="card-Skills-links ">
                         <li class="b5 ">HTML</li>
                         <li class="b6 ">Bootstrap</li>
                         <li class="b7 ">Ruby</li>
                     </ul>
                 </article>
-                <a class="see-projectbtn ">See project</a>
+                <a class="card-projectbtn ">See project</a>
             </div>
         </div>
-        <div class="about-section " id="About">
+        <div class="about-section " id="About ">
             <article class="intro ">
                 <h3>About me</h3>
                 <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
@@ -225,16 +226,16 @@
                 </ul>
             </section>
         </div>
-        <div class="form-section " id="Contact">
+        <div class="form-section" id="Contact">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-            <form action="https://formspree.io/f/mrgvjnke" method="post" id="Form">
-                <section class="input-section">
-                    <input class="name" type="text" name="Fullname" placeholder="Fullname" maxlength="30" required required pattern="[A-Za-z]+">
-                    <input class="surname" type="text" name="Surname" placeholder="Lastname" maxlength="30" required required pattern="[A-Za-z]+">
-                </section>
-                <span id="error" style="color: red;"></span>
-                <input class="e-mail" type="email" id="e-mail" placeholder="Email" maxlength="500" required>
-                <textarea class="textarea " type="text " name="subject " placeholder="Write me something... " maxlength="500" required></textarea>
+            <form action="https://formspree.io/f/mrgvjnke " method="post " id="Form">
+                <div class="input-section">
+                    <input class="name" type="text " name="Fullname" placeholder="Fullname " maxlength="30" required required pattern="[A-Za-z]+ ">
+                    <input class="surname" type="text " name="Surname" placeholder="Lastname" maxlength="30" required required pattern="[A-Za-z]+ ">
+                </div>
+                <span id="error " style="color: red; "></span>
+                <input class="e-mail" type="email " id="e-mail " placeholder="Email " maxlength="500 " required>
+                <textarea class="textarea " type="text " name="subject " placeholder="Write me something... " maxlength="500 " required></textarea>
                 <button class="submit-btn" id="submit" type="submit">Get in touch</button>
             </form>
         </div>
