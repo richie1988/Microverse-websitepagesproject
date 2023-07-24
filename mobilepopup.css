@@ -1,0 +1,69 @@
+@media screen and (max-width: 420px) {
+  .surname {
+    display: none;
+  }
+
+  .cardarticle {
+    color: rgba(103, 121, 142, 1);
+  }
+
+  .button-section {
+    display: flex;
+    column-gap: 24px;
+    width: fit-content;
+    align-items: center;
+    list-style: none;
+    padding-top: 16px;
+  }
+
+  .cardlinks {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    gap: 12px;
+    text-align: center;
+  }
+
+  ul .linkBtn {
+    align-items: center;
+    height: 36px;
+    border: 1px solid #979493;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: hsl(20, 3%, 23%);
+  }
+
+  .p1 {
+    display: none;
+  }
+
+  .p2 {
+    line-height: 24px;
+  }
+
+  .hh3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: hsl(218, 54%, 20%);
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hh2 {
+    display: none;
+  }
+}
