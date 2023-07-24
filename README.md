@@ -133,6 +133,11 @@ I would like Thank Microverse Team and my Collabaration partners whom they have 
 - GitHub: [Al Amin Khan Shakil](htpps://github.com/Al-Amin-Khan-Shakil)
 - Twitter: [Al Amin Khan Shakil](https://twitter.com/Al-Amin-Khan-Shakil)
 - LinkedIn: [Al Amin Khan Shakil](https://www.linkedin.com/Al-Amin-Khan-Shakil)
+
+👤 **Stanley Osagie Ramos**
+- GitHub: [@sagieramos](https://github.com/sagieramos)
+- Twitter: [@sagieramos](https://twitter.com/sagieramos)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sagieramos)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
