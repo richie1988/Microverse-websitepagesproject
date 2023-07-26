@@ -773,24 +773,27 @@ input {
     display: none;
   }
 
-  .first-card .card-projectbtn {
+  button:active {
+    transform: scale(1.1);
+    color: hsl(15, 15%, 95%);
+    background: hsl(22, 96%, 45%);
+    -webkit-transform: scale(1.1);
+  }
+
+  button:hover {
+    transition-duration: 0.2s;
+    color: hsl(22, 100%, 48%);
+    background: hsl(40, 100%, 94%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+
+  #Profile .card-hero:first-child button {
     display: flex;
   }
 
   .card-Skills-links {
     margin: 20px;
-  }
-
-  .first-card .card-Skills-links {
-    display: none;
-  }
-
-  .first-card h2 {
-    display: none;
-  }
-
-  .first-card p {
-    display: none;
   }
 
   .skills-section h2 {
@@ -889,21 +892,6 @@ input {
     margin-left: 18px;
   }
 
-  button:hover {
-    transition-duration: 0.2s;
-    color: hsl(22, 100%, 48%);
-    background: hsl(40, 100%, 94%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-  }
-
-  button:active {
-    transform: scale(1.1);
-    color: hsl(15, 15%, 95%);
-    background: hsl(22, 96%, 45%);
-    -webkit-transform: scale(1.1);
-  }
-
   .myphoto {
     height: auto;
     display: flex;
@@ -919,9 +907,8 @@ input {
     align-items: center;
     display: flex;
     gap: 22px;
-    margin-left: -50px;
     list-style: none;
-    margin-top: 33px;
+    margin: auto;
   }
 
   .social-media ul {
