@@ -355,64 +355,37 @@ li.b4 {
   gap: 24px;
 }
 
-.first-card {
+.card-hero {
   height: 386px;
   width: 327px;
-  background-image: url("image/Img\ Placeholder.png");
   background-repeat: no-repeat;
   margin-top: 24px;
   display: inline-grid;
   align-items: flex-end;
 }
 
-.second-card {
-  height: 386px;
-  width: 327px;
+.card-hero:nth-child(1) {
   background-image: url("image/Img\ Placeholder.png");
-  background-repeat: no-repeat;
-  margin-top: 24px;
-  display: inline-grid;
-  align-items: flex-end;
 }
 
-.third-card {
-  height: 386px;
-  width: 327px;
+.card-hero:nth-child(2) {
   background-image: url("image/Img\ Placeholder.png");
-  background-repeat: no-repeat;
-  margin-top: 24px;
-  display: inline-grid;
-  align-items: flex-end;
 }
 
-.fouth-card {
-  height: 386px;
-  width: 327px;
+.card-hero:nth-child(3) {
+  background-image: url("image/Img\ Placeholder.png");
+}
+
+.card-hero:nth-child(4) {
   background-image: url("image/3thCardimg.png");
-  background-repeat: no-repeat;
-  margin-top: 24px;
-  display: inline-grid;
-  align-items: flex-end;
 }
 
-.fifth-card {
-  height: 386px;
-  width: 327px;
+.card-hero:nth-child(5) {
   background-image: url("image/Img\ Placeholder.png");
-  background-repeat: no-repeat;
-  margin-top: 24px;
-  display: inline-grid;
-  align-items: flex-end;
 }
 
-.six-card {
-  height: 386px;
-  width: 327px;
+.card-hero:nth-child(6) {
   background-image: url("image/3thCardimg.png");
-  background-repeat: no-repeat;
-  margin-top: 24px;
-  display: inline-grid;
-  align-items: flex-end;
 }
 
 .card-container h2 {
