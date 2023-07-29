@@ -186,3 +186,30 @@ document.getElementById('Form').addEventListener('submit', (event) => {
     displayMessage('Kindly check your email. Email must be in lower case.', 'red');
   }
 });
+
+/// ////THIS IS THEESERVE DATART/////////////
+
+function saveFormData() {
+  const formData = {
+    Fullname: document.querySelector('input[name="Fullname"]').value,
+    Surname: document.querySelector('input[name="Surname"]').value,
+    email: document.getElementById('e-mail').value,
+    subject: document.querySelector('textarea[name="subject"]').value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+// Function to load the form data from local storage
+function loadFormData() {
+  const formData = JSON.parse(localStorage.getItem('formData')) || {};
+  document.querySelector('input[name="Fullname"]').value = formData.Fullname || '';
+  document.querySelector('input[name="Surname"]').value = formData.Surname || '';
+  document.getElementById('e-mail').value = formData.email || '';
+  document.querySelector('textarea[name="subject"]').value = formData.subject || '';
+}
+
+// Attach event listener to the form to save data on change
+document.getElementById('Form').addEventListener('change', saveFormData);
+
+// Load the form data when the page is loaded
+window.addEventListener('load', loadFormData);
