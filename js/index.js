@@ -167,20 +167,49 @@ window.addEventListener('click', (event) => {
   }
 });
 
-/// //////////THIS IS THE FROM VALIDATION RT ////////////////
+/// //////////THIS IS THE FROM VALIDATION RT ////////////////// JavaScript
+function displayMessage(message, color) {
+  const errorElement = document.getElementById('error');
+  errorElement.textContent = message;
+  errorElement.style.color = color;
+}
 
-// document.getElementById('Form').addEventListener('submit', (event) => {
-//   event.preventDefault(); // Prevent form submission
-//   const emailInput = document.getElementById('e-mail');
-//   const email = emailInput.value;
-//
-//   if (email === email.toLowerCase()) {
-//     alert('Form submitted successfully!');
-//     document.getElementById('error').textContent = '';
-//     emailInput.value = '';
-//   } else {
-//     // Validation failed, show error message
-//     document.getElementById('error').textContent =
-// `'Kindly check your, Email must be in lower case.'`;
-//   }
-// });
+document.getElementById('Form').addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent form submission
+  const emailInput = document.getElementById('e-mail');
+  const email = emailInput.value;
+
+  if (email === email.toLowerCase()) {
+    displayMessage('Form submitted successfully!', 'green');
+    emailInput.value = '';
+  } else {
+    displayMessage('Kindly check your email. Email must be in lower case.', 'red');
+  }
+});
+
+/// ////THIS IS THEESERVE DATART/////////////
+
+function saveFormData() {
+  const formData = {
+    Fullname: document.querySelector('input[name="Fullname"]').value,
+    Surname: document.querySelector('input[name="Surname"]').value,
+    email: document.getElementById('e-mail').value,
+    subject: document.querySelector('textarea[name="subject"]').value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+// Function to load the form data from local storage
+function loadFormData() {
+  const formData = JSON.parse(localStorage.getItem('formData')) || {};
+  document.querySelector('input[name="Fullname"]').value = formData.Fullname || '';
+  document.querySelector('input[name="Surname"]').value = formData.Surname || '';
+  document.getElementById('e-mail').value = formData.email || '';
+  document.querySelector('textarea[name="subject"]').value = formData.subject || '';
+}
+
+// Attach event listener to the form to save data on change
+document.getElementById('Form').addEventListener('change', saveFormData);
+
+// Load the form data when the page is loaded
+window.addEventListener('load', loadFormData);
