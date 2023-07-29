@@ -167,20 +167,22 @@ window.addEventListener('click', (event) => {
   }
 });
 
-/// //////////THIS IS THE FROM VALIDATION RT ////////////////
+/// //////////THIS IS THE FROM VALIDATION RT ////////////////// JavaScript
+function displayMessage(message, color) {
+  const errorElement = document.getElementById('error');
+  errorElement.textContent = message;
+  errorElement.style.color = color;
+}
 
-// document.getElementById('Form').addEventListener('submit', (event) => {
-//   event.preventDefault(); // Prevent form submission
-//   const emailInput = document.getElementById('e-mail');
-//   const email = emailInput.value;
-//
-//   if (email === email.toLowerCase()) {
-//     alert('Form submitted successfully!');
-//     document.getElementById('error').textContent = '';
-//     emailInput.value = '';
-//   } else {
-//     // Validation failed, show error message
-//     document.getElementById('error').textContent =
-// `'Kindly check your, Email must be in lower case.'`;
-//   }
-// });
+document.getElementById('Form').addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent form submission
+  const emailInput = document.getElementById('e-mail');
+  const email = emailInput.value;
+
+  if (email === email.toLowerCase()) {
+    displayMessage('Form submitted successfully!', 'green');
+    emailInput.value = '';
+  } else {
+    displayMessage('Kindly check your email. Email must be in lower case.', 'red');
+  }
+});
