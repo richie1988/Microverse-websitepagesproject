@@ -83,25 +83,17 @@
                 <h1>My Recent works</h1>
                 <hr/>
             </section>
-            <div class="Featured-info">
-
-                <image class="myphoto" src="image/Img Placeholder (1).png">
-                </image>
-
-                <article class="my-article" id="articleCard">
-                    <h2>Multi-Post Stories</h2>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                    <ul class=" mylinks">
-                        <li class="b1">CSS</li>
-                        <li class="b2">HTML</li>
-                        <li class="b3">Bootstrap</li>
-                        <li class="b4">Ruby</li>
-                    </ul>
-                    <button class="first-projectbtn" id="showDetailsBtn"> See project </button>
-                </article>
+            <!--THIS IS THE START OF THE DYNAMICALLY -->
+            <section class="projects" id="projects">
+                <!--The projects section will be dynamically generated using JavaScript-->
+            </section>
+            <div class="popup-container" id="popupContainer">
+                <div class="popup" id="popup">
+                    <!-- Your popup content will be dynamically added here -->
+                    <span class="close-btn" id="closeBtn">&times;</span>
+                </div>
             </div>
-            <div id="Profile" class="card-container"></div>
-
+            <!--THIS IS THE END OF THE DYNAMICALLY -->
             <div class="about-section " id="About">
                 <article class="intro ">
                     <h3>About me</h3>
@@ -169,7 +161,7 @@
         </main>
     </div>
     <script src="./js/index.js "></script>
-    <script src="./js/popup.js "></script>
+
 </body>
 
 </html>
