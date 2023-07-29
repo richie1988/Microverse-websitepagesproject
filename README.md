@@ -59,6 +59,7 @@ so that other developer's can find them or see what the have built.
 - **[full-webintaraction]**
 - **[When the user clicks (or taps) the button to check project details, the popup with details about the project appears.]**
 - **[When the user clicks (or taps) the close (X) button, the popup disappears.]**
+- **[Form Validation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
